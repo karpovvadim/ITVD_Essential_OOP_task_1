@@ -12,6 +12,13 @@ def main():
     print(pushkin_copy)
     print(gosher)
 
+    print(repr(andrianov))
+    print(repr(pushkin))
+    print()
+    print(pushkin == andrianov)
+    print(pushkin == pushkin_copy)
+    print(gosher != pushkin)
+
 
 if __name__ == "__main__":
     main()
